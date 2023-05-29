@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+.logo {
+  width: 100px;
+  height: 30px;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+}
+.user-input-section {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 20px;
+}
+.pw-img1 {
+  width: 90%;
+  align-self: center;
+}
+.input-card {
+  border-radius: 10px;
+  background-color: #454f84;
+  padding: 10px;
+}
+.heading1 {
+  font-size: 23px;
+  color: #ffffff;
+}
+.inputText {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 35px;
+  display: flex;
+  padding-left: 10px;
+}
+.input-body {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  border-left: 1px solid #333333;
+  height: 35px;
+  padding-left: 10px;
+}
+.add-button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 90px;
+  align-self: flex-end;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+.passwords-container {
+  padding: 20px;
+}
+.searchbar {
+  width: 40%;
+  align-self: flex-end;
+}
+.passwords-container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.upperbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+}
+.password-count {
+  margin-left: 10px;
+  border-radius: 40%;
+  border: 2px solid #94a3b8;
+  width: 30px;
+  text-align: center;
+}
+.passwords-list {
+}
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.list-item {
+  border-radius: 8px;
+  border: 1px solid #b6c3ca;
+  margin-left: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.password-list {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.delete-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  align-self: center;
+}
+.dlt-icon {
+  width: 30px;
+  height: 30px;
+}
+.name-icon {
+  align-self: center;
+  border-radius: 50%;
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  font-weight: 600;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.no-passwords-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-pw-image {
+  width: 60%;
+  height: 200px;
+}
+.stars {
+  width: 90px;
+}
